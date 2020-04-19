@@ -1,0 +1,376 @@
+body{
+margin:0;
+padding: 0;
+}
+/*header start*/
+header{
+background-color: #121b2a;
+padding: 10px 0;
+}
+.wrapper{
+overflow: hidden;
+width: 80%;
+/*border:1px solid red;*/
+margin: 0 auto;
+}
+.logo{
+width: 20%;
+/*border:1px solid red;*/
+float: left;
+}
+.logo a img{
+width: 100%;
+}
+.menu{
+width: 60%;
+margin-top: 30px;
+/*border:1px solid red;*/
+float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+float: left;
+list-style: none;
+}
+.menu ul li a{
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+padding: 0 20px;
+transition: .5s;
+text-decoration: none;
+text-transform: uppercase;
+display: block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #007abb;
+}
+/*header ending*/
+/*<!-- section start -->*/
+.banner{
+background-image: url(../ima/bannar.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.banner_text{
+width: 50%;
+/*border: 1px solid red;*/
+margin-top: 250px;
+margin-bottom: 100px;
+}
+.banner_text h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+.banner_text h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #0074b9;
+    margin: 0;
+}
+.banner_text p{
+font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 5px 0 30px;
+    line-height: 30px;
+    word-spacing: 4px;
+}
+.banner_text button{
+font-size: 18px;
+color:#5a5a5a;
+padding: 15px 40px;
+border: none;
+text-transform: uppercase;
+}
+/*section ending */
+ /*service-start */
+ .service{
+ 	background-color: #121b2c;
+ 	    padding: 20px 0 20px;
+ }
+ .single{
+width: 30%;
+border-right: 1px solid #1a2430;
+/*padding: 10px 20px 10px 15px;*/
+padding-top: 10px;
+padding-right: 1.6%;
+padding-bottom: 10px;
+padding-left: 1.6%;
+float: left;
+ }
+ .single:last-child{
+ 	border-right: none;
+ }
+ .top{
+overflow: hidden;
+ }
+ .icon{
+width: 20%;
+/*border: 1px solid red;*/
+float: left;
+ }
+ .icon img{
+width: 100%;
+ }
+ .content{
+width: 55%;
+/*border: 1px solid red;*/
+float: left;
+margin-top: 15px;
+margin-left: 5px;
+ }
+ .content h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0 0;
+ }
+ .content h2{
+ 	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #0078bd;
+    margin: 0 0;
+ }
+ .bottom{
+
+ }
+ .bottom p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 20px 0 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+ }
+ /*service-end */
+ /*contact-start*/
+ .contact {
+background-color: #040811;
+    padding: 59px 0 60px;
+}
+.contact-01 {
+	width: 30%;
+    float:left;
+    padding-right: 1.6%;
+    padding-left: 1.5%;
+	/*border: 1px solid white;*/
+}
+
+.name {
+	/*float: left;*/
+    padding: 10px 0 10px;
+}
+
+.name-1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    width: 31%;
+    color: white;
+    margin: 0 0;
+    float: left;
+}
+.name-2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    width: 65%;
+    color: #0076b6;
+    margin: 0 0;
+    float: left;
+    
+}
+
+.address-01 {
+    margin: 46px 0 21px;
+	color: white;
+}
+
+.callNumber-Email {
+	color: white;
+    /*margin-left: 10px;*/
+}
+/*contact-02*/
+.qoutation {
+       background-color: #0c1019;
+       overflow: hidden;
+
+}
+
+.heading-line {
+        color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+
+}
+
+.headline-01 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    width:44%;
+    color: white;
+    margin: 0 0;
+    float: left;
+    
+}
+
+.headline-02{
+    width:50%;
+    color: #0076b6;
+    margin: 0 0;
+    float: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.qoutation-line {
+        color: white;
+
+}
+
+.qutation-paragraph {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.webaddress {
+        color: white;
+            margin-top: 20px
+
+}
+
+.webaddress-01 {
+    font-family: sans-serif;
+    font-size: 18px;
+        color: white;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.webaddress-02 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    /* margin: 0; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*contact-02*/
+/*contact-03*/
+.mobile_app01 {
+width:30%;
+float:left;
+margin-left: 15px;
+margin-right: 25px;
+/*border: 1px solid red;*/
+}
+.mobile_app01 img{
+    width: 100%;
+}
+
+.app_store {
+width:50%;
+float:left;
+}
+
+.appstore_head {
+}
+
+.app_head01 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+}
+
+.app_head02 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0076b6;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.appstore_button {
+}
+.appstore_button img{
+    width: 100%;
+}
+/*contact-03*/
+/*contact-end*/
+/*footer start*/
+.footer {
+    background-color: #121b2c;
+}
+.footer_info {
+    width: 60%;
+    margin: 32px 0;
+    /*border:1px solid white;*/
+    float: left;
+}
+.footer-line{
+margin: 10px 0;
+color: white;
+/*border:1px solid red;*/
+}
+.footer-line ul{
+   padding-inline-start: 0px;
+   float: left;
+
+}
+.footer-line ul li {
+    list-style: none;
+    float: left;
+}
+.footer-line ul li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+}
+.footer_info02{
+    margin-left: 10px;
+    color: white;
+/*border:1px solid red;*/
+}
+.symbian {
+width: 20%;
+float:left;
+}
+.symbian img{
+    margin-top: 45px;
+}
+
+.footer_logo {
+    width: 20%;
+    float:left;
+}
+.footer_logo img{
+    margin-top: 45px;
+}
+/*footer end*/
